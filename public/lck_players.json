@@ -1,0 +1,556 @@
+{
+  "teams": [
+    {
+      "id": "t1",
+      "name": "T1",
+      "shortName": "T1",
+      "colorHex": "#E2012D",
+      "players": [
+        {
+          "ign": "Doran",
+          "realName": "최현준 (Choi Hyeon-joon)",
+          "role": "TOP",
+          "accounts": [
+            { "gameName": "어리고싶다", "tagLine": "KR1" },
+            { "gameName": "사과게임", "tagLine": "kr11" }
+          ]
+        },
+        {
+          "ign": "Oner",
+          "realName": "문현준 (Moon Hyeon-joon)",
+          "role": "JNG",
+          "accounts": [
+            { "gameName": "오 너", "tagLine": "111" },
+            { "gameName": "T1 Oner", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Faker",
+          "realName": "이상혁 (Lee Sang-hyeok)",
+          "role": "MID",
+          "accounts": [
+            { "gameName": "Hide on bush", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Peyz",
+          "realName": "김수환 (Kim Su-hwan)",
+          "role": "ADC",
+          "accounts": [
+            { "gameName": "Peyz", "tagLine": "KR11" }
+          ]
+        },
+        {
+          "ign": "Keria",
+          "realName": "류민석 (Ryu Min-seok)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "Keria", "tagLine": "4111" },
+            { "gameName": "credit", "tagLine": "kk123" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geng",
+      "name": "Gen.G",
+      "shortName": "GEN",
+      "colorHex": "#AA8B2C",
+      "players": [
+        {
+          "ign": "Kiin",
+          "realName": "김기인 (Kim Gi-in)",
+          "role": "TOP",
+          "accounts": [
+            { "gameName": "kiin", "tagLine": "KR1" },
+            { "gameName": "나는돌거북", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Canyon",
+          "realName": "김건부 (Kim Geon-bu)",
+          "role": "JNG",
+          "accounts": [
+            { "gameName": "JUGKlNG", "tagLine": "kr" },
+            { "gameName": "그어살", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Chovy",
+          "realName": "정지훈 (Jeong Ji-hoon)",
+          "role": "MID",
+          "accounts": [
+            { "gameName": "허거덩", "tagLine": "0303" }
+          ]
+        },
+        {
+          "ign": "Ruler",
+          "realName": "박재혁 (Park Jae-hyuk)",
+          "role": "ADC",
+          "accounts": [
+            { "gameName": "강 철", "tagLine": "샤 넬" },
+            { "gameName": "잘해야해", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Duro",
+          "realName": "주민규 (Joo Min-kyu)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "Duro", "tagLine": "Gen" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hle",
+      "name": "Hanwha Life Esports",
+      "shortName": "HLE",
+      "colorHex": "#FF6B00",
+      "players": [
+        {
+          "ign": "Zeus",
+          "realName": "최우제 (Choi Woo-je)",
+          "role": "TOP",
+          "accounts": [
+            { "gameName": "Zeus", "tagLine": "glgl" },
+            { "gameName": "굿뉴스", "tagLine": "000" }
+          ]
+        },
+        {
+          "ign": "Kanavi",
+          "realName": "서진혁 (Seo Jin-hyeok)",
+          "role": "JNG",
+          "accounts": [
+            { "gameName": "vinaka", "tagLine": "KR1" },
+            { "gameName": "lqslqslqslqs", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Zeka",
+          "realName": "김건우 (Kim Geon-woo)",
+          "role": "MID",
+          "accounts": [
+            { "gameName": "dlwldms", "tagLine": "iuiu" },
+            { "gameName": "Kiruru", "tagLine": "kr7" }
+          ]
+        },
+        {
+          "ign": "Gumayusi",
+          "realName": "이민형 (Lee Min-hyeong)",
+          "role": "ADC",
+          "accounts": [
+            { "gameName": "HLE Gumayusi", "tagLine": "0298" },
+            { "gameName": "구르시", "tagLine": "녹서스" }
+          ]
+        },
+        {
+          "ign": "Delight",
+          "realName": "유환중 (Yoo Hwan-joong)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "플레이리스트겨울", "tagLine": "KR1" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dk",
+      "name": "Dplus KIA",
+      "shortName": "DK",
+      "colorHex": "#0064E0",
+      "players": [
+        {
+          "ign": "Siwoo",
+          "realName": "전시우 (Jeon Si-woo)",
+          "role": "TOP",
+          "accounts": [
+            { "gameName": "TOPKING", "tagLine": "asd" },
+            { "gameName": "DK Siwoo", "tagLine": "siwoo" }
+          ]
+        },
+        {
+          "ign": "Lucid",
+          "realName": "최용혁 (Choi Yong-hyeok)",
+          "role": "JNG",
+          "accounts": [
+            { "gameName": "DK Lucid", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "ShowMaker",
+          "realName": "허수 (Heo Su)",
+          "role": "MID",
+          "accounts": [
+            { "gameName": "DK ShowMaker", "tagLine": "KR1" },
+            { "gameName": "MIDKING", "tagLine": "asd" }
+          ]
+        },
+        {
+          "ign": "Smash",
+          "realName": "신금재 (Shin Geum-jae)",
+          "role": "ADC",
+          "accounts": [
+            { "gameName": "DK Smash", "tagLine": "KR7" },
+            { "gameName": "사옥 지박령", "tagLine": "KR4" }
+          ]
+        },
+        {
+          "ign": "Career",
+          "realName": "오형석 (Oh Hyung-seok)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "꼬부기", "tagLine": "0829" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drx",
+      "name": "Kiwoom DRX",
+      "shortName": "KRX",
+      "colorHex": "#0B3D91",
+      "players": [
+        {
+          "ign": "Rich",
+          "realName": "이재원 (Lee Jae-won)",
+          "role": "TOP",
+          "accounts": [
+            { "gameName": "대머리도적", "tagLine": "롤링썬더" },
+            { "gameName": "탑원거리", "tagLine": "KR123" }
+          ]
+        },
+        {
+          "ign": "Vincenzo",
+          "realName": "하승민 (Ha Seung-min)",
+          "role": "JNG",
+          "accounts": [
+            { "gameName": "KRX Vincenzo", "tagLine": "KR4" }
+          ]
+        },
+        {
+          "ign": "Willer",
+          "realName": "김정현 (Kim Jeong-hyeon)",
+          "role": "JNG",
+          "accounts": [
+            { "gameName": "KRX Willer", "tagLine": "KRX" },
+            { "gameName": "김정현", "tagLine": "Kjh1" }
+          ]
+        },
+        {
+          "ign": "Ucal",
+          "realName": "손우현 (Son Woo-hyeon)",
+          "role": "MID",
+          "accounts": [
+            { "gameName": "KRX Ucal", "tagLine": "0130" },
+            { "gameName": "미드가우갈", "tagLine": "가내현" }
+          ]
+        },
+        {
+          "ign": "Jiwoo",
+          "realName": "정지우 (Jung Ji-woo)",
+          "role": "ADC",
+          "accounts": [
+            { "gameName": "DRX Jiwoo", "tagLine": "123" }
+          ]
+        },
+        {
+          "ign": "Andil",
+          "realName": "문관빈 (Moon Gwan-bin)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "KRX Joker", "tagLine": "A i" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kt",
+      "name": "KT Rolster",
+      "shortName": "KT",
+      "colorHex": "#FF0000",
+      "players": [
+        {
+          "ign": "PerfecT",
+          "realName": "이승민 (Lee Seung-min)",
+          "role": "TOP",
+          "accounts": [
+            { "gameName": "작두콩차", "tagLine": "꿀유자차" },
+            { "gameName": "PerfecT", "tagLine": "132" }
+          ]
+        },
+        {
+          "ign": "Cuzz",
+          "realName": "문우찬 (Moon Woo-chan)",
+          "role": "JNG",
+          "accounts": [
+            { "gameName": "독침붕", "tagLine": "딱충이" },
+            { "gameName": "Cuzz", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Bdd",
+          "realName": "곽보성 (Gwak Bo-seong)",
+          "role": "MID",
+          "accounts": [
+            { "gameName": "아구몬", "tagLine": "0509" },
+            { "gameName": "파피몬", "tagLine": "1111" }
+          ]
+        },
+        {
+          "ign": "Aiming",
+          "realName": "김하람 (Kim Ha-ram)",
+          "role": "ADC",
+          "accounts": [
+            { "gameName": "아이린", "tagLine": "KR1" },
+            { "gameName": "그래나를바바", "tagLine": "xxxx" }
+          ]
+        },
+        {
+          "ign": "Ghost",
+          "realName": "장용준 (Jang Yong-jun)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "Ghost", "tagLine": "올라갑니다" }
+          ]
+        },
+        {
+          "ign": "Pollu",
+          "realName": "오동규 (Oh Dong-gyu)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "YdBB", "tagLine": "0107" }
+          ]
+        },
+        {
+          "ign": "Effort",
+          "realName": "이상호 (Lee Sang-ho)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "Effort", "tagLine": "4444" },
+            { "gameName": "17596207del", "tagLine": "KR1" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fearx",
+      "name": "BNK FearX",
+      "shortName": "BFX",
+      "colorHex": "#6B2FD1",
+      "players": [
+        {
+          "ign": "Clear",
+          "realName": "송현민 (Song Hyeon-min)",
+          "role": "TOP",
+          "accounts": [
+            { "gameName": "songman", "tagLine": "KR11" }
+          ]
+        },
+        {
+          "ign": "Raptor",
+          "realName": "전어진 (Jeon Eo-jin)",
+          "role": "JNG",
+          "accounts": [
+            { "gameName": "Raptor", "tagLine": "KR123" }
+          ]
+        },
+        {
+          "ign": "VicLa",
+          "realName": "이대광 (Lee Dae-kwang)",
+          "role": "MID",
+          "accounts": [
+            { "gameName": "대광", "tagLine": "God" }
+          ]
+        },
+        {
+          "ign": "Diable",
+          "realName": "남대근 (Nam Dae-geun)",
+          "role": "ADC",
+          "accounts": [
+            { "gameName": "LSB Diable", "tagLine": "KR1" },
+            { "gameName": "적수가없는사람", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Kellin",
+          "realName": "김형규 (Kim Hyeong-gyu)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "댕청잇", "tagLine": "KR123" },
+            { "gameName": "참새크면비둘기", "tagLine": "KR1" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bro",
+      "name": "Hanjin Brion",
+      "shortName": "BRO",
+      "colorHex": "#00B140",
+      "players": [
+        {
+          "ign": "Casting",
+          "realName": "신민제 (Shin Min-je)",
+          "role": "TOP",
+          "accounts": [
+            { "gameName": "Casting", "tagLine": "KR11" }
+          ]
+        },
+        {
+          "ign": "Gideon",
+          "realName": "김민성 (Kim Min-seong)",
+          "role": "JNG",
+          "accounts": [
+            { "gameName": "초록이필요해", "tagLine": "KR3" },
+            { "gameName": "초록이필요해", "tagLine": "KR2" }
+          ]
+        },
+        {
+          "ign": "Roamer",
+          "realName": "조우진 (Cho Woo-jin)",
+          "role": "MID",
+          "accounts": [
+            { "gameName": "우 맨", "tagLine": "who" },
+            { "gameName": "당신 탓인 걸요", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Teddy",
+          "realName": "박진성 (Park Jin-seong)",
+          "role": "ADC",
+          "accounts": [
+            { "gameName": "Teddy", "tagLine": "sss" },
+            { "gameName": "이브이", "tagLine": "이 브" }
+          ]
+        },
+        {
+          "ign": "Namgung",
+          "realName": "남궁성훈 (Namgung Seong-hoon)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "BRO Namgung", "tagLine": "1004" },
+            { "gameName": "Gen G Namgung", "tagLine": "KR1" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ns",
+      "name": "NS RedForce",
+      "shortName": "NS",
+      "colorHex": "#D31245",
+      "players": [
+        {
+          "ign": "Kingen",
+          "realName": "황성훈 (Hwang Seong-hoon)",
+          "role": "TOP",
+          "accounts": [
+            { "gameName": "Kingen", "tagLine": "KR1" },
+            { "gameName": "갯벌타워", "tagLine": "KR2" }
+          ]
+        },
+        {
+          "ign": "Sponge",
+          "realName": "배영준 (Bae Young-jun)",
+          "role": "JNG",
+          "accounts": [
+            { "gameName": "Not Bad", "tagLine": "KR2" }
+          ]
+        },
+        {
+          "ign": "Scout",
+          "realName": "이예찬 (Lee Ye-chan)",
+          "role": "MID",
+          "accounts": [
+            { "gameName": "미북이", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Calix",
+          "realName": "선현빈 (Seon Hyun-bin)",
+          "role": "MID",
+          "accounts": [
+            { "gameName": "dlfuwls", "tagLine": "123" }
+          ]
+        },
+        {
+          "ign": "Taeyoon",
+          "realName": "김태윤 (Kim Tae-yoon)",
+          "role": "ADC",
+          "accounts": [
+            { "gameName": "태 윤", "tagLine": "N S" }
+          ]
+        },
+        {
+          "ign": "Lehends",
+          "realName": "손시우 (Son Si-woo)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "Lehends", "tagLine": "KR1" },
+            { "gameName": "Always be crying", "tagLine": "KR1" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dns",
+      "name": "DN SOOPers",
+      "shortName": "DNS",
+      "colorHex": "#00843D",
+      "players": [
+        {
+          "ign": "DuDu",
+          "realName": "이동주 (Lee Dong-ju)",
+          "role": "TOP",
+          "accounts": [
+            { "gameName": "따봉 람머스", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Pyosik",
+          "realName": "홍창현 (Hong Chang-hyeon)",
+          "role": "JNG",
+          "accounts": [
+            { "gameName": "DNS Pyosik", "tagLine": "KR2" }
+          ]
+        },
+        {
+          "ign": "Clozer",
+          "realName": "이주현 (Lee Ju-hyeon)",
+          "role": "MID",
+          "accounts": [
+            { "gameName": "Maldives", "tagLine": "0727" },
+            { "gameName": "인천물주먹", "tagLine": "인천사람" }
+          ]
+        },
+        {
+          "ign": "deokdam",
+          "realName": "서대길 (Seo Dae-gil)",
+          "role": "ADC",
+          "accounts": [
+            { "gameName": "deokdam", "tagLine": "225" }
+          ]
+        },
+        {
+          "ign": "Life",
+          "realName": "김정민 (Kim Jeong-min)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "나는 고등학교에 가본 적이없어", "tagLine": "reze" },
+            { "gameName": "Doinb", "tagLine": "KR1" }
+          ]
+        },
+        {
+          "ign": "Peter",
+          "realName": "정윤수 (Jeong Yoon-su)",
+          "role": "SUP",
+          "accounts": [
+            { "gameName": "high hopes", "tagLine": "DNS" },
+            { "gameName": "아름다운 나라", "tagLine": "K T" }
+          ]
+        }
+      ]
+    }
+  ]
+}
