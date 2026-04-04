@@ -78,7 +78,7 @@ All API calls are made **server-side** via Next.js API routes. The API key is ne
 - **Deployment:** Vercel (free tier)
 - **API Key Management:** Server-side only (Vercel env var + GitHub Gist fallback)
 
-## LCK Teams Covered (2025 Season)
+## LCK Teams Covered (2026 Season)
 
 | Team | Players |
 |------|---------|
