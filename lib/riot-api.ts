@@ -8,19 +8,20 @@ let cachedKey: string | null = null;
 let keyFetchedAt = 0;
 
 async function getAPIKey(): Promise<string> {
-  if (process.env.RIOT_API_KEY) return process.env.RIOT_API_KEY;
-
   if (cachedKey && Date.now() - keyFetchedAt < 300_000) return cachedKey;
 
   try {
     const res = await fetch(GIST_URL, { cache: "no-store" });
     const json = await res.json();
-    cachedKey = json.riotAPIKey;
-    keyFetchedAt = Date.now();
-    return cachedKey!;
-  } catch {
-    return cachedKey || "";
-  }
+    if (json.riotAPIKey) {
+      cachedKey = json.riotAPIKey;
+      keyFetchedAt = Date.now();
+      return cachedKey!;
+    }
+  } catch {}
+
+  if (process.env.RIOT_API_KEY) return process.env.RIOT_API_KEY;
+  return cachedKey || "";
 }
 
 async function riotFetch<T>(url: string): Promise<T> {
