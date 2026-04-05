@@ -24,14 +24,7 @@ export default function RootLayout({
             <Link href="/" className="text-lg font-bold">
               LCK Tracker
             </Link>
-            <div className="flex gap-4 text-sm">
-              <Link
-                href="/leaderboard"
-                className="flex items-center gap-1 text-orange-500 hover:text-orange-600 font-medium"
-              >
-                🏆 순위
-              </Link>
-            </div>
+            <div className="flex gap-4 text-sm" />
           </div>
         </nav>
         <main className="max-w-4xl mx-auto px-4 py-6">{children}</main>
