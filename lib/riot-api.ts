@@ -163,8 +163,8 @@ export async function getPlayerRankedInfo(gameName: string, tagLine: string) {
           }
         : null,
     };
-  } catch {
-    return { puuid: null, profileIconId: null, ranked: null };
+  } catch (e) {
+    return { puuid: null, profileIconId: null, ranked: null, error: String(e) };
   }
 }
 
