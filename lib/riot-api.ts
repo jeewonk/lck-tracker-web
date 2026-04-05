@@ -8,6 +8,9 @@ let cachedKey: string | null = null;
 let keyFetchedAt = 0;
 
 async function getAPIKey(): Promise<string> {
+  // Prefer env var on Vercel (no network call needed)
+  if (process.env.RIOT_API_KEY) return process.env.RIOT_API_KEY;
+
   if (cachedKey && Date.now() - keyFetchedAt < 300_000) return cachedKey;
 
   try {
@@ -20,7 +23,6 @@ async function getAPIKey(): Promise<string> {
     }
   } catch {}
 
-  if (process.env.RIOT_API_KEY) return process.env.RIOT_API_KEY;
   return cachedKey || "";
 }
 
