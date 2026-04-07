@@ -4,26 +4,31 @@ const KR_BASE = "https://kr.api.riotgames.com";
 const GIST_URL =
   "https://gist.githubusercontent.com/jeewonk/2a6dba83e60b5d46fa4e1658049442dc/raw/gistfile0.txt";
 
-let cachedKey: string | null = null;
-let keyFetchedAt = 0;
+let cachedGistKey: string | null = null;
+let gistKeyFetchedAt = 0;
+let envKeyInvalid = false;
 
-async function getAPIKey(): Promise<string> {
-  // Prefer env var on Vercel (no network call needed)
-  if (process.env.RIOT_API_KEY) return process.env.RIOT_API_KEY;
-
-  if (cachedKey && Date.now() - keyFetchedAt < 300_000) return cachedKey;
+async function getGistKey(): Promise<string> {
+  if (cachedGistKey && Date.now() - gistKeyFetchedAt < 300_000)
+    return cachedGistKey;
 
   try {
     const res = await fetch(GIST_URL, { cache: "no-store" });
     const json = await res.json();
     if (json.riotAPIKey) {
-      cachedKey = json.riotAPIKey;
-      keyFetchedAt = Date.now();
-      return cachedKey!;
+      cachedGistKey = json.riotAPIKey;
+      gistKeyFetchedAt = Date.now();
+      return cachedGistKey!;
     }
   } catch {}
 
-  return cachedKey || "";
+  return cachedGistKey || "";
+}
+
+async function getAPIKey(): Promise<string> {
+  if (process.env.RIOT_API_KEY && !envKeyInvalid)
+    return process.env.RIOT_API_KEY;
+  return getGistKey();
 }
 
 async function riotFetch<T>(url: string): Promise<T> {
@@ -33,10 +38,24 @@ async function riotFetch<T>(url: string): Promise<T> {
     cache: "no-store",
   });
 
+  if (res.status === 401 && process.env.RIOT_API_KEY && !envKeyInvalid) {
+    envKeyInvalid = true;
+    const gistKey = await getGistKey();
+    if (gistKey && gistKey !== key) {
+      const retry = await fetch(url, {
+        headers: { "X-Riot-Token": gistKey },
+        cache: "no-store",
+      });
+      if (!retry.ok) throw new Error(`Riot API ${retry.status}: ${url}`);
+      return retry.json();
+    }
+  }
+
   if (res.status === 429) {
     await new Promise((r) => setTimeout(r, 2000));
+    const retryKey = await getAPIKey();
     const retry = await fetch(url, {
-      headers: { "X-Riot-Token": key },
+      headers: { "X-Riot-Token": retryKey },
       cache: "no-store",
     });
     return retry.json();
