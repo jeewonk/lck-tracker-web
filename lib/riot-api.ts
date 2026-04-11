@@ -13,7 +13,7 @@ async function getGistKey(): Promise<string> {
     return cachedGistKey;
 
   try {
-    const res = await fetch(GIST_URL, { cache: "no-store" });
+    const res = await fetch(`${GIST_URL}?t=${Date.now()}`, { cache: "no-store" });
     const json = await res.json();
     if (json.riotAPIKey) {
       cachedGistKey = json.riotAPIKey;

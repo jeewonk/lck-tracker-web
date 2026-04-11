@@ -21,7 +21,7 @@ export default function HomePage() {
   return (
     <div>
       <div className="text-center mb-8">
-        <h1 className="text-2xl font-bold mb-1">LCK 프로 솔로랭크</h1>
+        <h1 className="text-2xl font-bold mb-1">프로 솔로랭크</h1>
         <p className="text-sm text-gray-500 dark:text-gray-400">
           프로게이머 솔로랭크 실시간 전적
         </p>

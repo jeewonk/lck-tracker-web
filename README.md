@@ -1,13 +1,15 @@
-# LCK Tracker — Web
+# 프로 솔랭 트래커 — Web
 
-A web application that tracks **LCK (League of Legends Champions Korea)** pro players' solo queue ranked performance in real-time using the official Riot Games API.
+> Renamed from "LCK Tracker" on 2026-04-07 due to App Store guideline 4.1(c). Do NOT use "LCK" in any user-facing string or metadata.
+
+A web application that tracks Korean pro players' solo queue ranked performance in real-time using the official Riot Games API.
 
 **Live:** https://lck-tracker-web.vercel.app
 
 ## Features
 
 ### Team List (Home)
-- Displays all 10 LCK teams in a grid layout
+- Displays all 10 Korean pro teams in a grid layout
 - Search bar to find teams or players by name
 - Each team card shows the team badge, name, and role composition
 
@@ -28,7 +30,7 @@ A web application that tracks **LCK (League of Legends Champions Korea)** pro pl
 - **Stats Summary** — Aggregated win rate, average KDA, and W/L record from recent games
 
 ### Leaderboard
-- All LCK pro players ranked by solo queue LP
+- All Korean pro players ranked by solo queue LP
 - Displays profile icon, team badge, tier badge, LP, and win rate
 - Click any row to navigate to the player's full profile
 
@@ -68,7 +70,7 @@ All API calls are made **server-side** via Next.js API routes. The API key is ne
 ### Data Sources
 - **Riot Games API** — Real-time ranked and match data
 - **Data Dragon CDN** — Champion portraits and summoner profile icons (auto-updated version)
-- **Bundled roster data** (`lck_players.json`) — LCK team/player information with Riot account IDs
+- **Bundled roster data** (`lck_players.json`) — Korean pro team/player information with Riot account IDs
 
 ## Tech Stack
 
@@ -78,7 +80,7 @@ All API calls are made **server-side** via Next.js API routes. The API key is ne
 - **Deployment:** Vercel (free tier)
 - **API Key Management:** Server-side only (Vercel env var + GitHub Gist fallback)
 
-## LCK Teams Covered (2026 Season)
+## Teams Covered (2026 Season)
 
 | Team | Players |
 |------|---------|
@@ -104,4 +106,4 @@ https://sites.google.com/view/lck-tracker-privacy/home
 
 ## Legal
 
-LCK Tracker is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
+프로 솔랭 트래커 (KR Pro Rank Tracker) is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
